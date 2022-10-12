@@ -1,4 +1,5 @@
 import musicdoc
+import scales
 
 n = {'C': 1, 'C#': 2, 'Db': 2, 'D': 3, 'D#': 4, 'Eb': 4, 'E': 5, 'F': 6, 'F#': 7, 'Gb': 7, 'G': 8,
      'G#': 9,
@@ -15,4 +16,10 @@ scales = scales.Scales(major_accidentals, minor_accidentals, n)
 print("""
 𝕃𝕒𝕄𝕦𝕤𝕚𝕔
 _____________
+Are you a musician? Want to test your skills? This is the perfect game for you!
+You will be given a scale and a scale degree value. You will then have to guess
+the note for that scale degree within the given scale. Get it right, that's two points. Get it 
+wrong, you will lose a point. Keep playing to see if you can make it to 12!
 """)
+
+
