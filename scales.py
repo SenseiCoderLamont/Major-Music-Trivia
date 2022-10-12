@@ -157,7 +157,7 @@ class Scales(musicdoc.Music):
             self.result = []
             for note in self.major_scale_build(note):
                 self.result.append(self.note_decoder(note, tonic, scale_type))
-            print('Major Scale:', self.result)
+            return self.result
             if find_relative:
                 print('Relative Minor Key:', self.relative_note_finder(scale_type, tonic))
         elif scale_type == "minor":
